@@ -1,0 +1,24 @@
+{
+    "name": "vueport-hello-world",
+    "title": "VuePort: Hello world module to demo VuePort",
+    "description": "Not to be used for real, hello world module to showcase how to use VuePort",
+    "version": "1.0",
+    "authors": [{
+        "name": "KaKaRoTo (The Forge)",
+        "url": "https://forge-vtt.com"
+    }],
+    "scripts": ["./hello-world.js"],
+    "styles": [],
+    "packs": [],
+    "dependencies": [{
+        "name": "dlopen",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ForgeVTT/fvtt-module-dlopen/master/module.json"
+    },{
+        "name": "vueport",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ForgeVTT/fvtt-module-vueport/master/module.json"
+    }],
+    "minimumCoreVersion": "0.0.0",
+    "compatibleCoreVersion": "1.0.0"
+}
