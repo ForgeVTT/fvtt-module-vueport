@@ -3,6 +3,7 @@ class VuePortHelloWorld {
         // Register dependencies for vue-moveable and vue-soundcloud-player
         Dlopen.register('vue-moveable', {
             scripts: "https://unpkg.com/vue-moveable@1.8.9/dist/lib/VueMoveable.umd.min.js", 
+            dependencies: "vue",
             init: () => Vue.component(VueMoveable.name, VueMoveable)
         });
         Dlopen.register('classnames', {
@@ -17,7 +18,7 @@ class VuePortHelloWorld {
                 // "https://unpkg.com/classnames@2.2.6/index.js", // can't load it this way because of the classnames/classNames issue in the file definition
                 "https://unpkg.com/vue-soundcloud-player@1.2.0/dist/index.js"
             ],
-            dependencies: "classnames",
+            dependencies: ["vue", "classnames"],
             init: () => Vue.component(SoundCloud.default.name, SoundCloud.default)
         });
 
