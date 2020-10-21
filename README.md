@@ -1,6 +1,6 @@
 # VuePort!
 
-Library that
+Library that makes it easy to integrate Vue within Foundry VTT
 
 Create your .vue files, copy the gulpfile example and rename it, copy the package.json file or install with these (note gulp-vue-single-file-component is broken in latest version)
 `npm install --save gulp gulp-concat gulp-wrap gulp-declare gulp-minify gulp-vue-single-file-component@1.0.12 gulp-babel @babel/plugin-transform-modules-commonjs`
