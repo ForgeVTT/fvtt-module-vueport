@@ -49,7 +49,7 @@ class VuePort {
     }
 
     static async _autoRender(element) {
-        const components = $(element).find(".vueport-render");
+        const components = $(element).find(".vueport-render").addBack(".vueport-render");
         for (let el of components.toArray()) {
             const id = el.id || "vueApp";
             const deps = el.getAttribute("dependencies") || undefined;
