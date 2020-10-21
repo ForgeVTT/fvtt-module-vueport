@@ -62,8 +62,8 @@ class VuePort {
         }
     }
     static async _documentModified(mutations, observer) {
-        const addedNodes = mutations.reduce((nodes, mutation) => nodes.concat(mutation.addedNodes), [])
-        return this._autoRender(...addedNodes);
+        const addedNodes = mutations.reduce((nodes, mutation) => nodes.concat(...mutation.addedNodes), [])
+        return this._autoRender(addedNodes);
     }
     static async loadCss(config) {
         return Dlopen.loadCss(config);
