@@ -4,7 +4,8 @@
   "description": "",
   "main": "hello-world.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp"
   },
   "author": "",
   "license": "ISC",
