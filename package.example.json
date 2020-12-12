@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.10.5",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
