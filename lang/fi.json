@@ -1,1 +1,4 @@
-{}
+{
+    "VUEPORT.debug": "Ota Vuen vianmääritys käyttöön",
+    "VUEPORT.debugHint": "Ottaa käyttöön Vuen vianmäärityksen devtools-laajennuksessa (vaatii uudelleenlatauksen)"
+}
