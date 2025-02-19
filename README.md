@@ -74,9 +74,7 @@ Hooks.on("init", () => {
 You can then have your js and css files loaded automatically as dependencies before the component is displayed. This is practical to avoid loading everything when Foundry boots, but instead loading the Vue components only when the user opens the UI.
 
 ```html
-<my-vue-component class="vueport-render" dependencies="my-module-name-vue">
-    Loading, please wait...
-</my-vue-component>
+<my-vue-component class="vueport-render" dependencies="my-module-name-vue">Loading, please wait...</my-vue-component>
 ```
 
 # Using Gulp (DEPRECATED)
