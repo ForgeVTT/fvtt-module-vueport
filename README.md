@@ -26,8 +26,7 @@ You can create the element manually via code, or you can embed your Vue componen
 
 ```hbs
 <div>
-    This is in my handlebars template file for module
-    {{moduleName}}
+    This is in my handlebars template file for module {{moduleName}}
     <my-vue-port-component class="vueport-render" :my-property="myJSONStringifiedData">
         Loading, please wait...
         <!--
@@ -74,7 +73,9 @@ Hooks.on("init", () => {
 You can then have your js and css files loaded automatically as dependencies before the component is displayed. This is practical to avoid loading everything when Foundry boots, but instead loading the Vue components only when the user opens the UI.
 
 ```html
-<my-vue-component class="vueport-render" dependencies="my-module-name-vue">Loading, please wait...</my-vue-component>
+<my-vue-component class="vueport-render" dependencies="my-module-name-vue">
+    Loading, please wait...
+</my-vue-component>
 ```
 
 # Using Gulp (DEPRECATED)

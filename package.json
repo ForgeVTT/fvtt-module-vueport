@@ -5,7 +5,7 @@
     "main": "vueport.js",
     "scripts": {
         "lint": "eslint --fix .",
-        "format": "prettier --write '!vueport-hello-world/dist' ."
+        "format": "prettier --write '!README.md' '!vueport-hello-world/dist' ."
     },
     "repository": {
         "type": "git",
