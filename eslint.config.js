@@ -16,11 +16,9 @@ export default [
                 Dlopen: "readonly",
                 game: "readonly",
                 Hooks: "readonly",
-                SoundCloud: "readonly",
                 ui: "readonly",
                 Vue: "readonly",
-                Vuex: "readonly",
-                VueMoveable: "readonly"
+                Vuex: "readonly"
             }
         }
     },

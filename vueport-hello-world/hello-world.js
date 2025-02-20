@@ -1,3 +1,5 @@
+/*global VueMoveable, SoundCloud */
+
 class VuePortHelloWorld {
     static init() {
         // Register dependencies for vue-moveable and vue-soundcloud-player
