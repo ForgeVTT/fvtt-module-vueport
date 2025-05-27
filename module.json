@@ -34,6 +34,16 @@
             "lang": "en",
             "name": "English",
             "path": "lang/en.json"
+        },
+        {
+            "lang": "fi",
+            "name": "Suomi",
+            "path": "lang/fi.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
         }
     ],
     "url": "https://github.com/ForgeVTT/fvtt-module-vueport",
