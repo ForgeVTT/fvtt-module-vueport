@@ -3,7 +3,7 @@
     "id": "vueport",
     "title": "VuePort: Let the Light in!",
     "description": "<p>Using Handlebars is like switching from Theatre of the Mind to using a ruler to help tracing your grid in your pen & paper game. Using Vue is like switching to Foundry VTT instead!</p><p>Open the VuePort, let the light in and bask in the glory!</p><p>This library module, contributed by The Forge, provides an easy way to integrate Vue.js within your Foundry applications. See README for details on how to use it.</p>",
-    "version": "1.1",
+    "version": "1.2",
     "authors": [
         {
             "name": "KaKaRoTo (The Forge)",
@@ -48,7 +48,7 @@
     ],
     "url": "https://github.com/ForgeVTT/fvtt-module-vueport",
     "manifest": "https://raw.githubusercontent.com/ForgeVTT/fvtt-module-vueport/master/module.json",
-    "download": "https://github.com/ForgeVTT/fvtt-module-vueport/archive/v1.1.zip",
+    "download": "https://github.com/ForgeVTT/fvtt-module-vueport/archive/v1.2.zip",
     "minimumCoreVersion": 9,
     "compatibleCoreVersion": 12,
     "compatibility": {
