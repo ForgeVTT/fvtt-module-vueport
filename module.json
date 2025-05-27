@@ -53,7 +53,6 @@
     "compatibleCoreVersion": 12,
     "compatibility": {
         "minimum": 9,
-        "verified": 12,
-        "maximum": 13
+        "verified": 12
     }
 }
